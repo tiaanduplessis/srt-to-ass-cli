@@ -11,7 +11,8 @@
     "srt-to-ass": "^0.1.9"
   },
   "scripts": {
-    "test": "standard --fix"
+    "test": "npm run lint && node test.js",
+    "lint": "standard"
   },
   "bin": {
     "srt-to-ass": "index.js"
